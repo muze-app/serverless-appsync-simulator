@@ -1727,13 +1727,13 @@
     "pify" "^5.0.0"
     "yargs" "^15.0.1"
 
-"amplify-appsync-simulator@^1.27.4":
-  "integrity" "sha512-xHTpqGUj7Xcnvy+ecW7fpYvrcNm9b9tmebn1zE0SkInI6+dbkbxJLJ4tMJ7i6J0gNUbIFsmSw4V3HA+8Mc9FCA=="
-  "resolved" "https://registry.npmjs.org/amplify-appsync-simulator/-/amplify-appsync-simulator-1.27.7.tgz"
-  "version" "1.27.7"
+"amplify-appsync-simulator@https://gitpkg.now.sh/behrmans/amplify-cli/packages/amplify-appsync-simulator?simulator-batchgetitem-operation":
+  "integrity" "sha512-WbRhXlWcNhyfDeupCTZVpnrRGm0fFZhfu8SLR2GqIF+J2MyXjx6tIhNKMzm+oCM4xR33jZ6BSvlE995aC1Zb6w=="
+  "resolved" "https://gitpkg.now.sh/behrmans/amplify-cli/packages/amplify-appsync-simulator?simulator-batchgetitem-operation"
+  "version" "1.27.6"
   dependencies:
     "amplify-velocity-template" "1.4.5"
-    "aws-sdk" "^2.963.0"
+    "aws-sdk" "^2.919.0"
     "chalk" "^4.1.1"
     "cors" "^2.8.5"
     "dataloader" "^2.0.0"
@@ -1754,7 +1754,7 @@
     "moment-timezone" "0.5.27"
     "mqtt-connection" "4.0.0"
     "nanoid" "2.1.10"
-    "pino" "^6.13.0"
+    "pino" "5.16.0"
     "portfinder" "^1.0.25"
     "qlobber" "3.1.0"
     "retimer" "2.0.0"
@@ -2124,7 +2124,7 @@
   "resolved" "https://registry.npmjs.org/atomic-sleep/-/atomic-sleep-1.0.0.tgz"
   "version" "1.0.0"
 
-"aws-sdk@^2.792.0", "aws-sdk@^2.963.0":
+"aws-sdk@^2.792.0", "aws-sdk@^2.919.0":
   "integrity" "sha512-OcnD7m+HCZv2qDzmS7TgABGf26mVPfIyah0Dgz7hHAxBtx78qFWi/s9U6BDxVBKWLg7OKWVHf0opiMG4ujteqg=="
   "resolved" "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.999.0.tgz"
   "version" "2.999.0"
@@ -3831,12 +3831,12 @@
   "resolved" "https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz"
   "version" "2.0.6"
 
-"fast-redact@^3.0.0":
-  "integrity" "sha512-YN+CYfCVRVMUZOUPeinHNKgytM1wPI/C/UCLEi56EsY2dwwvI00kIJHJoI7pMVqGoMew8SMZ2SSfHKHULHXDsg=="
-  "resolved" "https://registry.npmjs.org/fast-redact/-/fast-redact-3.0.2.tgz"
-  "version" "3.0.2"
+"fast-redact@^2.0.0":
+  "integrity" "sha512-0LkHpTLyadJavq9sRzzyqIoMZemWli77K2/MGOkafrR64B9ItrvZ9aT+jluvNDsv0YEHjSNhlMBtbokuoqii4A=="
+  "resolved" "https://registry.npmjs.org/fast-redact/-/fast-redact-2.1.0.tgz"
+  "version" "2.1.0"
 
-"fast-safe-stringify@^2.0.8":
+"fast-safe-stringify@^2.0.7":
   "integrity" "sha512-W+KJc2dmILlPplD/H4K9l9LcAHAfPtP6BY84uVLXQ6Evcz9Lcg33Y2z1IVblT6xdY54PXYVHEv+0Wpq8Io6zkA=="
   "resolved" "https://registry.npmjs.org/fast-safe-stringify/-/fast-safe-stringify-2.1.1.tgz"
   "version" "2.1.1"
@@ -3847,11 +3847,6 @@
   "version" "1.5.1"
   dependencies:
     "reusify" "^1.0.0"
-
-"fastify-warning@^0.2.0":
-  "integrity" "sha512-s1EQguBw/9qtc1p/WTY4eq9WMRIACkj+HTcOIK1in4MV5aFaQC9ZCIt0dJ7pr5bIf4lPpHvAtP2ywpTNgs7hqw=="
-  "resolved" "https://registry.npmjs.org/fastify-warning/-/fastify-warning-0.2.0.tgz"
-  "version" "0.2.0"
 
 "fastparallel@^2.2.0":
   "integrity" "sha512-sacwQ7wwKlQXsa7TN24UvMBLZNLmVcPhmxccC9riFqb3N+fSczJL8eWdnZodZ/KijGVgNBBfvF/NeXER08uXnQ=="
@@ -7191,23 +7186,22 @@
   "resolved" "https://registry.npmjs.org/pify/-/pify-5.0.0.tgz"
   "version" "5.0.0"
 
-"pino-std-serializers@^3.1.0":
-  "integrity" "sha512-EqX4pwDPrt3MuOAAUBMU0Tk5kR/YcCM5fNPEzgCO2zJ5HfX0vbiH9HbJglnyeQsN96Kznae6MWD47pZB5avTrg=="
-  "resolved" "https://registry.npmjs.org/pino-std-serializers/-/pino-std-serializers-3.2.0.tgz"
-  "version" "3.2.0"
+"pino-std-serializers@^2.4.2":
+  "integrity" "sha512-wXqbqSrIhE58TdrxxlfLwU9eDhrzppQDvGhBEr1gYbzzM4KKo3Y63gSjiDXRKLVS2UOXdPNR2v+KnQgNrs+xUg=="
+  "resolved" "https://registry.npmjs.org/pino-std-serializers/-/pino-std-serializers-2.5.0.tgz"
+  "version" "2.5.0"
 
-"pino@^6.13.0":
-  "integrity" "sha512-tJy6qVgkh9MwNgqX1/oYi3ehfl2Y9H0uHyEEMsBe74KinESIjdMrMQDWpcZPpPicg3VV35d/GLQZmo4QgU2Xkg=="
-  "resolved" "https://registry.npmjs.org/pino/-/pino-6.13.3.tgz"
-  "version" "6.13.3"
+"pino@5.16.0":
+  "integrity" "sha512-k9cDzHd9S/oYSQ9B9g9+7RXkfsZX78sQXERC8x4p2XArECZXULx9nqNwZvJHsLj779wPCt+ybN+dG8jFR70p6Q=="
+  "resolved" "https://registry.npmjs.org/pino/-/pino-5.16.0.tgz"
+  "version" "5.16.0"
   dependencies:
-    "fast-redact" "^3.0.0"
-    "fast-safe-stringify" "^2.0.8"
-    "fastify-warning" "^0.2.0"
+    "fast-redact" "^2.0.0"
+    "fast-safe-stringify" "^2.0.7"
     "flatstr" "^1.0.12"
-    "pino-std-serializers" "^3.1.0"
-    "quick-format-unescaped" "^4.0.3"
-    "sonic-boom" "^1.0.2"
+    "pino-std-serializers" "^2.4.2"
+    "quick-format-unescaped" "^3.0.3"
+    "sonic-boom" "^0.7.5"
 
 "pirates@^4.0.1":
   "integrity" "sha512-WuNqLTbMI3tmfef2TKxlQmAiLHKtFhlsCZnPIpuv2Ow0RDVO8lfy1Opf4NUzlMXLjPl+Men7AuVdX6TA+s+uGA=="
@@ -7437,10 +7431,10 @@
   "resolved" "https://registry.npmjs.org/queue-microtask/-/queue-microtask-1.2.3.tgz"
   "version" "1.2.3"
 
-"quick-format-unescaped@^4.0.3":
-  "integrity" "sha512-tYC1Q1hgyRuHgloV/YXs2w15unPVh8qfu/qCTfhTYamaw7fyhumKa2yGpdSo87vY32rIclj+4fWYQXUMs9EHvg=="
-  "resolved" "https://registry.npmjs.org/quick-format-unescaped/-/quick-format-unescaped-4.0.4.tgz"
-  "version" "4.0.4"
+"quick-format-unescaped@^3.0.3":
+  "integrity" "sha512-dy1yjycmn9blucmJLXOfZDx1ikZJUi6E8bBZLnhPG5gBrVhHXx2xVyqqgKBubVNEXmx51dBACMHpoMQK/N/AXQ=="
+  "resolved" "https://registry.npmjs.org/quick-format-unescaped/-/quick-format-unescaped-3.0.3.tgz"
+  "version" "3.0.3"
 
 "quick-lru@^4.0.1":
   "integrity" "sha512-ARhCpm70fzdcvNQfPoy49IaanKkTlRWF2JMzqhcJbhSFRZv7nPTvZJdcY7301IPmvW+/p0RgIWnQDLJxifsQ7g=="
@@ -8244,10 +8238,10 @@
     "ip" "^1.1.5"
     "smart-buffer" "^4.1.0"
 
-"sonic-boom@^1.0.2":
-  "integrity" "sha512-LRHh/A8tpW7ru89lrlkU4AszXt1dbwSjVWguGrmlxE7tawVmDBlI1PILMkXAxJTwqhgsEeTHzj36D5CmHgQmNg=="
-  "resolved" "https://registry.npmjs.org/sonic-boom/-/sonic-boom-1.4.1.tgz"
-  "version" "1.4.1"
+"sonic-boom@^0.7.5":
+  "integrity" "sha512-Ei5YOo5J64GKClHIL/5evJPgASXFVpfVYbJV9PILZQytTK6/LCwHvsZJW2Ig4p9FMC2OrBrMnXKgRN/OEoAWfg=="
+  "resolved" "https://registry.npmjs.org/sonic-boom/-/sonic-boom-0.7.7.tgz"
+  "version" "0.7.7"
   dependencies:
     "atomic-sleep" "^1.0.0"
     "flatstr" "^1.0.12"
