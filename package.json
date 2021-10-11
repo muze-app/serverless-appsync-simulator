@@ -21,7 +21,7 @@
     "/lib"
   ],
   "dependencies": {
-    "amplify-appsync-simulator": "https://gitpkg.now.sh/behrmans/amplify-cli/packages/amplify-appsync-simulator?simulator-batchgetitem-operation&scripts.scripts.postinstall=tsc%20--lib%20es2019%20%26%26%20npm%20install",
+    "amplify-appsync-simulator": "https://gitpkg.now.sh/behrmans/amplify-cli/packages/amplify-appsync-simulator?simulator-batchgetitem-operation&scripts.scripts.postinstall=npm%20install%20%26%26%20tsc%20--lib%20es2019",
     "amplify-nodejs-function-runtime-provider": "https://gitpkg.now.sh/behrmans/amplify-cli/packages/amplify-nodejs-function-runtime-provider?3f8bb3f3f327d2f085de3810c4f862a4e6ededb5",
     "aws-sdk": "^2.792.0",
     "axios": "^0.21.0",

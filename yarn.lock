@@ -1727,9 +1727,9 @@
     "pify" "^5.0.0"
     "yargs" "^15.0.1"
 
-"amplify-appsync-simulator@https://gitpkg.now.sh/behrmans/amplify-cli/packages/amplify-appsync-simulator?simulator-batchgetitem-operation&scripts.scripts.postinstall=tsc%20--lib%20es2019%20%26%26%20npm%20install":
-  "integrity" "sha512-8dZy7jny81kdNu2E0wCFwqJ5PfHz8rXQzR7WUlaNl9g17xqDqf2d5EzYXNENArUaNUKu6lzN4c1LuMRWoGRskA=="
-  "resolved" "https://gitpkg.now.sh/behrmans/amplify-cli/packages/amplify-appsync-simulator?simulator-batchgetitem-operation&scripts.scripts.postinstall=tsc%20--lib%20es2019%20%26%26%20npm%20install"
+"amplify-appsync-simulator@https://gitpkg.now.sh/behrmans/amplify-cli/packages/amplify-appsync-simulator?simulator-batchgetitem-operation&scripts.scripts.postinstall=npm%20install%20%26%26%20tsc%20--lib%20es2019":
+  "integrity" "sha512-TP2DZAFxqRLFxYej+gZ5WXHnpFouPokAn3wQonBZtRV+QyxV33JKKIrIjbEX428RoXyn8SGwLmrxRIV2HSmpKA=="
+  "resolved" "https://gitpkg.now.sh/behrmans/amplify-cli/packages/amplify-appsync-simulator?simulator-batchgetitem-operation&scripts.scripts.postinstall=npm%20install%20%26%26%20tsc%20--lib%20es2019"
   "version" "1.27.6"
   dependencies:
     "amplify-velocity-template" "1.4.5"
