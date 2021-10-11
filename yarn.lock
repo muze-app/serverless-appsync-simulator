@@ -1727,9 +1727,9 @@
     "pify" "^5.0.0"
     "yargs" "^15.0.1"
 
-"amplify-appsync-simulator@https://gitpkg.now.sh/behrmans/amplify-cli/packages/amplify-appsync-simulator?simulator-batchgetitem-operation":
-  "integrity" "sha512-WbRhXlWcNhyfDeupCTZVpnrRGm0fFZhfu8SLR2GqIF+J2MyXjx6tIhNKMzm+oCM4xR33jZ6BSvlE995aC1Zb6w=="
-  "resolved" "https://gitpkg.now.sh/behrmans/amplify-cli/packages/amplify-appsync-simulator?simulator-batchgetitem-operation"
+"amplify-appsync-simulator@https://gitpkg.now.sh/behrmans/amplify-cli/packages/amplify-appsync-simulator?simulator-batchgetitem-operation&scripts.scripts.postinstall=npm%20install%20--ignore-scripts%20%26%26%20npm%20run%20build":
+  "integrity" "sha512-kmo1cV3yFmfvT8oqjdvn4pt9gSJRrzkwRRrVhHARGxIx7krCIgWKWcmItZ3cGwz9QgyBTwY7cfmfxF+bhQNgHg=="
+  "resolved" "https://gitpkg.now.sh/behrmans/amplify-cli/packages/amplify-appsync-simulator?simulator-batchgetitem-operation&scripts.scripts.postinstall=npm%20install%20--ignore-scripts%20%26%26%20npm%20run%20build"
   "version" "1.27.6"
   dependencies:
     "amplify-velocity-template" "1.4.5"
