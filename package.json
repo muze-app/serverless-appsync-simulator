@@ -22,8 +22,8 @@
     "/lib"
   ],
   "dependencies": {
-    "amplify-appsync-simulator": "https://gitpkg.now.sh/muze-app/amplify-cli/packages/amplify-appsync-simulator?simulator-batchgetitem-operation&scripts.postinstall=npm%20install%20%26%26%20tsc%20--lib%20es2019",
-    "amplify-nodejs-function-runtime-provider": "https://gitpkg.now.sh/muze-app/amplify-cli/packages/amplify-nodejs-function-runtime-provider?3f8bb3f3f327d2f085de3810c4f862a4e6ededb5",
+    "amplify-appsync-simulator": "https://gitpkg.vercel.app/muze-app/amplify-cli/packages/amplify-appsync-simulator?simulator-batchgetitem-operation",
+    "amplify-nodejs-function-runtime-provider": "https://gitpkg.now.sh/muze-app/amplify-cli/packages/amplify-nodejs-function-runtime-provider?simulator-batchgetitem-operation",
     "aws-sdk": "^2.792.0",
     "axios": "^0.21.0",
     "babel-jest": "^26.6.3",
