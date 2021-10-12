@@ -14,7 +14,8 @@
     "lint": "eslint src/*/**.js",
     "tests": "jest",
     "build": "babel src/ -d lib/ --delete-dir-on-start --ignore '**/__tests__'",
-    "prepare": "yarn run build && cd ./node_modules/amplify-appsync-simulator && tsc --lib es2019 && cd ..",
+    "prepare": "yarn run build",
+    "postinstall": "cd ./node_modules/amplify-appsync-simulator && tsc --lib es2019 && cd ..",
     "start-dev": "yarn run build -w --verbose"
   },
   "files": [
